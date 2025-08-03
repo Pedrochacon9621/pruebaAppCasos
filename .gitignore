@@ -1,0 +1,16 @@
+# React
+casefront1/node_modules/
+casefront1/build/
+
+# Django
+backend-dev/__pycache__/
+backend-dev/db.sqlite3
+backend-dev/staticfiles/
+backend-dev/venv/
+
+*.pyc
+.env
+
+# General
+*.log
+.DS_Store
