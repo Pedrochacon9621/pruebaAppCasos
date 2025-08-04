@@ -7,7 +7,7 @@
     },
     {
       "name": "frontend",
-      "path": "frontend-dev",
+      "path": "casefront1",
       "startCommand": "serve -s build",
       "buildCommand": "npm run build"
     }
