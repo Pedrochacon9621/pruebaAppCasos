@@ -1,0 +1,15 @@
+{
+  "services": [
+    {
+      "name": "backend",
+      "path": "backend-dev",
+      "startCommand": "python manage.py runserver 0.0.0.0:8000"
+    },
+    {
+      "name": "frontend",
+      "path": "frontend-dev",
+      "startCommand": "serve -s build",
+      "buildCommand": "npm run build"
+    }
+  ]
+}
